@@ -1,0 +1,52 @@
+body{color: white; background-color: black; margin-left: 100px; margin-right: 100px; font-family: "Montserrate";}
+@font-face {
+    font-family: Montserrate;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+.nav{display: flex; justify-content: space-between;}
+.nav>ul{display: flex; list-style-type: none}
+.nav>ul>li{padding: 15px; font-size: 10px;}
+.nav>img{width: 180px; }
+.nav>ul>li>a{text-decoration: none; color: white;}
+.nav>ul>li>a:hover{color: #bfc500;}
+.First{display: flex; margin-top: 30px; margin-left: 30px; margin-right: 30px;}
+#dark{color: white; font-size: 30px; font-weight: 900; font-family: sans-serif;}
+#dark+p{color: white; font-size: 16px; font-family: "Montserrate"; padding-right: 150px; text-align: justify; font-weight: 100;}
+.second{display: flex; width: 100%; flex-grow: 1;}
+#third{color: #bfc500; font-size: 25.6px; font-family: "Montserrate"; margin-left: 30px;}
+#third+p{color: white; margin-left: 30px; font-size: 16.8px; font-family: "Montserrate";}
+.forth{display: flex; justify-content: space-between; margin-left: 30px; margin-right: 30px;}
+#mid{color: white; font-family: "Montserrate";}
+#mid+p{color: white; font-family: "Montserrate"; font-size: 12px; font-weight: 80;}
+.fifth{display: flex; align-items: center; justify-content: space-around; background-color: #bfc500; height: 70px; padding: 1.3rem !important; margin-left: 30px; margin-right: 30px;}
+#by{flex-basis: 200px; color: black; font-weight: 900; font-family: sans-serif; font-size: 23px;}
+#gr{flex-basis: 350px; color: black;}
+#bu{flex-basis: 200px; color: #bfc500; background-color: black; font-weight: 600; text-align: center; border-radius: 8px; border: 0px; font-size: 16px; height: 75px; width: 240px;}
+#bu:hover{background-color: white; color: black;}
+hr{margin-top: 40px; margin-left: 30px; margin-right: 30px;}
+.sixth{display: flex; margin: 30px; justify-content: space-between;}
+#na{flex-basis: 650px; word-spacing: 3px; line-height: 25px;}
+.sixth>img{width: 340px;}
+#na>h1{font-weight: bolder; font-size: 27.7px;}
+#na>p>a{color: #bfc500;}
+.seventh{display: flex; flex-direction: column; margin: 30px;}
+#seventh{margin-right: 250px; word-spacing: 3px; line-height: 25px;}
+.eight{display: flex; justify-content: space-between; margin: 60px;}
+.ek{display: flex; flex-direction: column; width: 150px;}
+.ek>img{width: 100px; justify-self: center;}
+.ek>p{flex-basis: 100px; font-size: .8em; font-weight: 100;}
+#dusra{margin-top: 40px;}
+#tisra{margin-top: 40px;}
+#chotha{margin-bottom: 40px;}
+#pachwa{margin-top: 50px;}
+.ninth{display: flex; margin: 30px; justify-content: space-between;}
+#ttt{flex-basis: 700px; word-spacing: 5px;}
+.ninth>img{width: 162px;}
+.rrr{display: flex; flex-direction: column; margin: 30px; word-spacing: 5px;}
+.rrr>h1+p+p{width: 850px;}
+.tenth{display: flex;}
+.q{display: flex; margin-left: 50px; margin-right: 50px;}
+.q>h1{font-size: 16px; color: #bfc500; margin-right: 60px;}
+.q>p{text-align: left;}
+.tenth>img{height: 350px; background-color: #bfc500;}
